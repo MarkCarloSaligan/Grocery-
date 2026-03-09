@@ -178,40 +178,14 @@ elif page == "Customer Feedback":
 # ABOUT PAGE
 elif page == "About":
 
-    st.title("📘 About This App")
-
-    st.header("What the App Does")
+    st.title("About Us")
 
     st.write("""
-    This Smart Grocery App allows users to simulate grocery shopping online.
-    Users can select grocery items, choose delivery options, and view a summary of their cart.
-    """)
+    Welcome to our Grocery App!
 
-    st.header("Target Users")
+    This app was created as a simple project to demonstrate a Streamlit user interface.
+    It allows users to explore a sample grocery store, choose items, view deals, and see a cart summary.
 
-    st.write("""
-    The target users are students, families, or anyone who wants a simple grocery planning system.
-    """)
-
-    st.header("Inputs Collected")
-
-    st.write("""
-    - Name
-    - Grocery item selections
-    - Quantity
-    - Delivery option
-    - Delivery date and time
-    - Payment method
-    - Feedback and ratings
-    """)
-
-    st.header("Outputs Displayed")
-
-    st.write("""
-    - Selected items
-    - Order confirmation
-    - Cart summary
-    - Total cost
-    - Nutrition information
-    - Customer feedback results
+    The goal of this app is to show how different Streamlit UI components work together
+    to create an interactive and easy-to-use application.
     """)
